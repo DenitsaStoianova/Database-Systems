@@ -1,5 +1,19 @@
 -- FUNCTIONS
 
+-- Скаларни функции
+-- За всеки ред от таблицата връщат една стойност
+-- Прилагат се върху колони или изрази върху колни
+-- Character Functions -> LOWER, UPPER, LENGTH, SUBSTR, REPLACE, TRIM, CONCAT
+-- Numeric Functions -> ROUND, DECIMAL
+-- Date Functions -> CURRENT_DATE, YEAR
+-- Conversion Functions 
+-- General Functions -> COALESCE (expr1, expr2, expr3, …)
+
+-- Агрегатни функции
+-- Прилагат се върху колони и действат за множество от редове от таблицата като връщат една стойност
+-- Всички агрегатни функции игнорират NULL стойностите
+-- AVG, SUM, MIN, MAX, COUNT
+
 SET SCHEMA DB2MOVIES;
 
 SELECT UPPER(TITLE)  AS TITLE,

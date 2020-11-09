@@ -1,5 +1,18 @@
 -- GROUP BY
 
+-- Можем да групираме по един или няколко атрибута или по израз
+-- Когато групираме в SELECT може да стоят само атрибутите, по които групираме и/или агрегатни функции (AVG, SUM и др.)
+-- Не можем, да имаме агрегатна функция в WHERE клаузата. В нея може да използваме само скаларни функции, като LENGTH, DAY и т.н.
+-- Агрегатни функции може да изплзваме само в SELECT и HAVING клаузата
+
+-- Ред на изпълнение на SELECT:
+--5) SELECT {* | column | expression [alias],..}
+--1) FROM table
+--2) WHERE <condition>
+--3) GROUP BY <column>
+--4) HAVING <condition>
+--6) ORDER BY <column>;
+
 SET SCHEMA DB2MOVIES;
 
 SELECT STUDIONAME, SUM(length) AS SUM_LEN

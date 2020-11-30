@@ -1,2 +1,2 @@
 # Database-Systems
-Еxercices done during the Database Systems Course
+This repository contains exercices, homeworks and projects done during the Database Systems Course

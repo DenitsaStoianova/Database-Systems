@@ -1,0 +1,30 @@
+SET SCHEMA FN71904#
+
+-- Изглед, който показва броя на епизодите и броя на сезоните в които е участвал всеки актьор
+CREATE VIEW FN71904.actorsStatisticsView(ACTORSERIALNAME, EPISODESNUMBER, SEASONSNUMBER)
+AS
+    SELECT A.SERIALNAME, COUNT(E.NAME), COUNT(DISTINCT S.NUMBER)
+    FROM ACTORS AS A, STARSIN AS ST,
+        EPISODES AS E, SEASONS AS S
+    WHERE A.SERIALNAME = ST.ACTORNAME
+    AND ST.EPISODENAME = E.NAME
+    AND E.SEASONNUMBER = S.NUMBER
+    GROUP BY A.SERIALNAME#
+
+SELECT * FROM FN71904.actorsStatisticsView#
+
+
+-- Изглед, който показва на колко години е бил всеки директор, когато е започнал да работи за сериала
+CREATE VIEW FN71904.directorsStartedAgeView(UCN, DIRECTORNAME, AGE)
+AS
+    SELECT D.UCN, D.NAME, MIN(YEAR(S.STARTDATE - D.BIRTHDATE))
+    FROM DIRECTORS AS D, DIRECTS AS DR,
+        EPISODES AS E, SEASONS AS S
+    WHERE D.UCN = DR.UCNDIRECTOR
+    AND DR.EPISODENAME = E.NAME
+    AND E.SEASONNUMBER = S.NUMBER
+    GROUP BY D.UCN, D.NAME#
+
+SELECT * FROM FN71904.directorsStartedAgeView#
+
+

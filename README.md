@@ -2,9 +2,6 @@
 
 <img src="https://github.com/DenitsaStoianova/Database-Systems/blob/master/dbms-image.jpg" width="400" height="200">
 
-
-This repository contains exercices, homeworks and projects done during the Database Systems Courses at FMI.
-
 **Table of contents:**
 - Entity/Relationship data model (Basic elements)
 - Constraints in the E/R model

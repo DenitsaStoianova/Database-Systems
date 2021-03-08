@@ -20,6 +20,12 @@ This repository contains exercices, homeworks and projects done during the Datab
 - Condition Handling
 - Nested SQL Procedures 
 
+**Exercices - practicing the topics:**
+
+[Semester 4 practice](https://github.com/DenitsaStoianova/Database-Systems/tree/master/Semester4)
+
+[Semester 5 practice](https://github.com/DenitsaStoianova/Database-Systems/tree/master/Semester5)
+
 **Course project:**
 
 The database for the series The 100 aims to store information about the data of the series in its own website - The100Base.

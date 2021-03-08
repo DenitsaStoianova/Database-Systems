@@ -20,3 +20,8 @@ This repository contains exercices, homeworks and projects done during the Datab
 - Condition Handling
 - Nested SQL Procedures 
 
+**Course project:**
+
+The100Base
+
+[https://github.com/DenitsaStoianova/Database-Systems/blob/master/CourseProject/The100Base/data_studio_diagram.png]

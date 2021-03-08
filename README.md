@@ -22,6 +22,8 @@ This repository contains exercices, homeworks and projects done during the Datab
 
 **Course project:**
 
-The100Base
+The database for the series The 100 aims to store information about the data of the series in its own website - The100Base.
+
+[The100Base](https://github.com/DenitsaStoianova/Database-Systems/tree/master/CourseProject)
 
 <img src="https://github.com/DenitsaStoianova/Database-Systems/blob/master/CourseProject/The100Base/data_studio_diagram.png" width="750" height="600">

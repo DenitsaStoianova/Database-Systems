@@ -24,6 +24,4 @@ This repository contains exercices, homeworks and projects done during the Datab
 
 The100Base
 
-![alt text](https://github.com/DenitsaStoianova/Database-Systems/blob/master/CourseProject/The100Base/data_studio_diagram.png  =250x250)
-
 <img src="https://github.com/DenitsaStoianova/Database-Systems/blob/master/CourseProject/The100Base/data_studio_diagram.png" width="750" height="600">

@@ -26,6 +26,10 @@ This repository contains exercices, homeworks and projects done during the Datab
 
 [Semester 5 practice](https://github.com/DenitsaStoianova/Database-Systems/tree/master/Semester5)
 
+[Practicum - exercices](https://github.com/DenitsaStoianova/Database-Systems/tree/master/Practicum/Exercises)
+
+[Practicum - homeworks](https://github.com/DenitsaStoianova/Database-Systems/tree/master/Practicum/Homeworks)
+
 **Course project:**
 
 The database for the series The 100 aims to store information about the data of the series in its own website - The100Base.

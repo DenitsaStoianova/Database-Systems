@@ -1,6 +1,6 @@
 # Database-Systems
 
-<img src="https://github.com/DenitsaStoianova/Database-Systems/blob/master/data_dictionary_erd_model.png" width="300" height="200">
+<img src="https://github.com/DenitsaStoianova/Database-Systems/blob/master/data_dictionary_erd_model.png" width="100" height="300">
 
 
 This repository contains exercices, homeworks and projects done during the Database Systems Courses at FMI.

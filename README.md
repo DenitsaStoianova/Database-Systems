@@ -26,4 +26,4 @@ The100Base
 
 ![alt text](https://github.com/DenitsaStoianova/Database-Systems/blob/master/CourseProject/The100Base/data_studio_diagram.png  =250x250)
 
-<img src="https://github.com/DenitsaStoianova/Database-Systems/blob/master/CourseProject/The100Base/data_studio_diagram.png" width="250" height="250">
+<img src="https://github.com/DenitsaStoianova/Database-Systems/blob/master/CourseProject/The100Base/data_studio_diagram.png" width="500" height="500">
